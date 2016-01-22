@@ -1,0 +1,11 @@
+<div>
+	<h1>{{langinfo.name}}</h1>
+	<p>{{langinfo.desc}}</p>
+	<p>更新日期：{{langinfo.date | checkmark}}</p>
+	<div class="img">
+		<img ng-repeat="langimg in langinfo.img" ng-src="{{langimg}}" width="200px" height="200px" ng-click="setImg(langimg)"/> &nbsp;
+	</div>
+	<div class="img">
+		<img ng-src="{{langinfo.mainImg}}" />
+	</div>
+</div>

@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+#t_header{width:100%;height:10%;background-color:#fc9999;}
+#t_header .t_h_main{width:70%;margin:0 auto;font-size:13px;height:60px;line-height:60px;color:#000;}
+#t_header .t_h_main a{color:#000;}
+#t_header .logo{width:10%;height:100%;margin-right:30px;}
+#t_header .t-input-text{width:250px;height:25px;line-height:25px;border:none;}

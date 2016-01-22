@@ -1,0 +1,13 @@
+/*global css*/
+*{margin:0;padding:0;}
+body{font:12px arial,"微软雅黑";}
+/*common css*/
+/*test css*/
+#menu span{display:inline-block;padding:3px 6px;border:1px solid #EC00FF;}
+/* date css */
+#my-date{width:210px;height:250px;border:1px solid red;backgroud-color:#efefef;}
+#date-title span{width:30px;display:inline-block;text-align:center;height:50px;line-height:50px;background-color:#efefef;}
+#date-show{padding-top:10px;}
+#date-show span{width:30px;display:inline-block;text-align:center;line-height:30px;height:30px;}
+#date-show span:hover{background-color:#efefef;}
+#my-bottom{height:30px;line-height:30px;}

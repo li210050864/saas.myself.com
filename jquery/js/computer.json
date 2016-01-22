@@ -1,0 +1,26 @@
+[
+	{
+		"id":1,
+		"name":"PHP",
+		"img":"images/php.jpg",
+		"desc":"The PHP development team announces the immediate availability of PHP 7.0.0 Beta 2"
+		},
+	{
+		"id":2,
+		"name":"C++",
+		"img":"images/c++.jpg",
+		"desc":"I am a graduate student in Institute of Computing Technology"
+		},
+	{
+		"id":3,
+		"name":"JAVA",
+		"img":"images/java.jpg",
+		"desc":"Le langage Java trouve ses origines dans les années 1990"
+		},
+	{
+		"id":4,
+		"name":"Python",
+		"img":"images/python.png",
+		"desc":"Whether you're new to programming or an experienced developer, it's easy to learn and use Python."
+	}
+]

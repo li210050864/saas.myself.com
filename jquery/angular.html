@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular JS</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/user.js"></script>
+</head>
+<body ng-app="myApp">
+	<div>
+		<input ng-model="name" type="text" placeholder="Your name">
+		<h1>Hello {{ name }}</h1>
+	</div>
+	<div ng-controller="UserController">
+		<input ng-model="to" type="text" placeholder="Recipient" />
+		<textarea ng-model="emailBody_first"></textarea>
+		<pre>{{ previewText }}</pre>
+	</div>
+	<div ng-controller="EmailController">
+		<div id="emailEditor">
+			<input type="text" placeholder="Recipient" ng-model="useremail"/>
+			<textarea ng-model="emailBody"></textarea>
+		</div>
+		<div id="emailPreview">
+			<pre>__ previewTest __</pre>
+		</div>
+	</div>
+</body>
+</html>

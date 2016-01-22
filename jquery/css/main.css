@@ -1,0 +1,55 @@
+*{
+	margin:0 auto;
+	padding:0px;
+	font-family: "微软雅黑";
+}
+body{
+	width:90%;
+	padding:10px 20px;
+}
+img{
+	border:none;
+}
+a{
+	text-decoration: none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clear{
+	clear: both;
+}
+.w49{
+	width:49%;
+}
+.w48{
+	width: 45%;
+}
+.rline{
+	border-right:1px solid #efefef;
+}
+.red{
+	color:#f00;
+}
+.f12{
+	font-size:12px;
+}
+.btn{
+	border-radius: 2px;
+	background-color:#0E7CEC;
+	color:#fff;
+	border:1px solid #fff;
+	padding:5px 8px;
+	cursor:pointer;
+}
+.left-div{
+	line-height: 30px;
+	font-size:14px;
+	padding-left:10px;
+}
+.left-div p{
+	width:90%;
+}

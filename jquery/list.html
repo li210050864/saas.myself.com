@@ -1,0 +1,9 @@
+<div>
+	<ul>
+		<li ng-repeat="lang in langs | orderBy:orderProp">
+			<p><a href="#/computer/{{lang.id}}"><img ng-src="{{lang.img}}" width="40px" height="40px" alt="{{lang.name}}"/>&nbsp;<span>{{lang.name}}</span></a></p>
+			<p>{{lang.desc}}</p>
+		</li>
+	</ul>
+	{{orderProp}}
+</div>

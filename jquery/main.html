@@ -1,0 +1,100 @@
+<!DOCTYPE <html>
+<head>
+	<title>Main Javascript</title>
+	<meta charset="utf-8">
+	<meta http-equiv="Access-Control-Allow-Origin" content="*">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div class="11-05 fl w48 rline left-div">
+		<h3>2015-11-05 Javascript</h3>
+		<p>严格模式：</p>
+		<input type="button" name="mode" class="btn" value="严格模式" onclick="doSomething()"/>
+		<p>面向对象的编程</p>
+		<input type="button" name="object" class="btn" value="面向对象" onclick="createObject()" />
+		<input type="button" name="object" class="btn" value="原型模式" onclick="ModeObject()" />
+		<input type="button" name="object" class="btn" value="属性测试" onclick="Attribute()" />
+		<input type="button" name="object" class="btn" value="循环方法" onclick="FunForIn()">
+		<input type="button" name="object" class="btn" value="获取热点" onclick="getNews()">
+		<input type="button" name="object" class="btn" value="枚举属性" onclick="ForInFun()">
+		<input type="button" name="object" class="btn" value="原生对象" onclick="OrgObject()">
+	</div>
+	<div class="11-12 w48 fr left-div">
+		<h3>2015-11-12 Javascript</h3>
+		<p>模式处理</p>
+		<p>
+			<input type="button" value="动态原型" name="object" class="btn" onclick="DonMode()"/>
+			<input type="button" value="寄生模式" name="object" class="btn" onclick="ParasiticMode()"/>
+			<input type="button" value="稳妥对象" name="object" class="btn" onclick="DurableObject()"/>
+		</p>
+		<p class="red f12">
+			注：1.寄生模式：可以在特殊的情况下用来为对象创造构造函数，假设我们想创建一个具有额外方法的特殊数组，不能直接修改Array 构造函数，因此可以使用这个模式。
+		</p>
+		<p class="red f12">
+			2.javascript 中 arguments 为关键字，表示函数的参数。
+		</p>
+		<p class="red f12">
+			3.稳妥对象，指的是没有公共属性，其他方法也不引用this的对象。稳妥对象最适合在一些安全的环境中，或者在方式数据被其他应用程序改动时使用。
+		</p>
+		<p class="red f12">
+			4.稳妥对象与寄生构造函数类似的模式，不同点有二：a.新创建对象的实力方法不引用this，b.不使用new操作符调用构造函数。
+		</p>
+		<p>继承</p>
+		<p>
+			<input class="btn" name="object" type="button" value="原型链" onclick="Prototype()"/>
+			<input class="btn" name="object" type="button" value="借用构造函数" onclick="StealConstruct()"/>
+			<input class="btn" name="object" type="button" value="组合继承" onclick="Combination()"/>
+			<input class="btn" name="object" type="button" value="原型继承" onclick="PrototypeIns()"/>
+			<input class="btn" name="object" type="button" value="寄生继承" onclick="Parasitic()"/>
+		</p>
+		<p class="red f12">
+			注：1.原型链的基本思想：利用原型让一个引用类型继承另一个引用类型的属性和方法。
+		</p>
+		<p class="red f12">
+			2.构造函数，原型和实例的关系：每个构造函数都有一个原型对象，原型对象包括一个指向构造函数的指针，实例都包含一个指向原型对象的内部指针。
+		</p>
+		<p class="red f12">
+			3.让原型对象等于李恩一个类型的实例，结果：此时的原型对象将包含一个指向另一个原型的指针，相应的，另一个原型中也包含着一个指向另一个构造函数的指针。假如另一个原型又是另一个类型的实例，那么上述关系依然成立，如此层层递进，就构成了实例与原型的链条。
+		</p>
+		<p class="red f12">
+			4.借用构造函数基本思想是，在子类型构造函数的内部调用超类型的构造函数。
+		</p>
+		<p class="red f12">
+			5.组合继承，将原型链和借用构造函数的技术组合到一起，思路是：使用原型链实现对原型属性和方法的继承，通过借用构造函数来实现对实例属性的继承。
+		</p>
+		<p class="red f12">
+			6.原型式继承：借助原型可以给予已有的对象创建新对象，同时不必因此创建自定义类型。
+		</p>
+		<p class="red f12">
+			7.寄生式继承：创建一个仅用于封装继承过程的函数，改函数在内部以某种方式来增强对象，最后再像真的是他做了所有工作一样返回对象。
+		</p>
+	</div>
+	<div class="left-div fl w48 rline">
+		<h3>2015-11-16 Javascript</h3>
+		<p>函数表达式</p>
+		<p>
+			<input type="button" class="btn" value="函数" onclick="BaseFunc()"/>
+			<input type="button" class="btn" value="函数表达式" onclick="FuncDeclara()"/>
+			<input type="button" class="btn" value="递归函数" onclick="RecursiveFunc(30)"/>
+			<input type="button" class="btn" value="闭包函数" onclick="compareFunc()"/>
+			<input type="button" class="btn" value="闭包变量" onclick="FuncClosure()"/>
+		</p>
+	</div>
+	<div class="left-div fl w48 rline">
+		<h3>2015-11-16 Javascript</h3>
+		<p>BOM</p>
+		<p>
+			<input type="button" class="btn" value="全局作用域" onclick="GlobalFunc()"/>
+			<input type="button" class="btn" value="窗口" onclick="FuncWindow()"/>
+			<input type="button" class="btn" value="递归函数" onclick="RecursiveFunc(30)"/>
+			<input type="button" class="btn" value="闭包函数" onclick="compareFunc()"/>
+			<input type="button" class="btn" value="闭包变量" onclick="FuncClosure()"/>
+		</p>
+		<p class="red f12">
+			1.BOM 的核心对象是window，他表示浏览器的一个实例，在全局作用域中声明的变量，函数都会变成window对象的属性和方法。
+			2.全局变量不能通过delete操作符删除，但是直接定义在window对象上的属性可以通过delete删除。
+		</p>
+	</div>
+</body>
+</html>

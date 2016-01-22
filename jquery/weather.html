@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>天气预报</title>
+		<meta charset="UTF-8">
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/base.js"></script>
+		<script src="js/miniweather.js"></script>
+	</head>
+	<body>
+		<script>
+			$(document).ready(function(){
+				$("#getWeather").click(function(){
+//					$.ajax({
+//						"url":"http://php.weather.sina.com.cn/iframe/index/w_cl.php?code=js&day=0&city=&dfc=1&charset=utf-8",
+//						"type":"GET",
+//						"dataType":"JSONP",
+//						jsonp: 'callback',
+//						"success":function(data){
+//								console.log(data);
+//							}
+//						});
+//(function(){var w=[];w['北京']=[{s1:'多云',s2:'阴',f1:'duoyun',f2:'yin',t1:'27',t2:'18',p1:'≤3',p2:'≤3',d1:'无持续风向',d2:'无持续风向'}];var add={now:'2015-09-08 15:26:44',time:'1441697204',update:'北京时间09月08日08:10更新',error:'0',total:'1'};window.SWther={w:w,add:add};})();//0
+//$.getScript('http://php.weather.sina.com.cn/iframe/index/w_cl.php?code=js&day=5&city=&dfc=1&charset=utf-8',function(a){
+//    var s="",r="",q="";
+//    var addr = window.SWther.w;
+//    console.log(addr);
+//    var time = window.SWther.add;
+//    console.log(time);
+//    for(s in window.SWther.w){
+//        q=SWther.w[s][0];
+//        r={city:s,date:SWther.add.now.split(" ")[0]||"",day_weather:q.s1,night_weather:q.s2,day_temp:q.t1,night_temp:q.t2,day_wind:q.p1,night_wind:q.p2},
+//        $("#weatherinfo").html(q.s1+" "+r.city);
+//        //alert(q[0])
+//        }
+//});
+//$.getJSON("http://api.map.baidu.com/telematics/v3/weather?location=%E5%8C%97%E4%BA%AC&output=json&ak=E4805d16520de693a3fe707cdc962045",function(data){
+//		console.log(data);
+//	});
+					});
+					
+			});
+		</script>
+		<input type="button" value="获取天气" id="getWeather"/>
+		<div id="weatherinfo" >
+			<!--<script src="http://ext.weather.com.cn/home/55ee869e73742314c0369b02.js"></script>-->
+			<!--<IFRAME ID='ifm2' WIDTH='260' HEIGHT='70' ALIGN='CENTER' MARGINWIDTH='0' MARGINHEIGHT='0' HSPACE='0' VSPACE='0' FRAMEBORDER='0' SCROLLING='NO' src="http://news.sina.com.cn/iframe/weather/130101.html"></iframe>
+			<iframe width=160 height=230 frameborder=0 scrolling=NO src=http://appnews.qq.com/cgi-bin/news_qq_search?city=南昌></iframe>-->
+		</div>
+	</body>
+</html>

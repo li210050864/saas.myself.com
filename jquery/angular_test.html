@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular JS</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/angular_test.js"></script>
+</head>
+<body ng-app>
+	Your name: <input type='text' ng-model='yourname' placeholder='World' />
+	<p>Hello {{yourname||'World'}}！</p>
+	<p>Math: 1 + 2 = {{1+2}}</p>
+	<ul>
+	    <li>
+	        <span>Nexus S</span>
+	        <p>
+	        Fast just got faster with Nexus S.
+	        </p>
+	    </li>
+	    <li>
+	        <span>Motorola XOOM™ with Wi-Fi</span>
+	        <p>
+	        The Next, Next Generation tablet.
+	        </p>
+	    </li>
+	</ul>
+	<p>Total number of phones: 2</p>
+	<div ng-controller='PhoneListCtrl'>
+		<ul>
+			<li ng-repeat='phone in phones'>
+				<span>{{phone.name}}</span>
+				<p>{{phone.snippet}}</p>
+			</li>
+		</ul>
+		<p>Total number of phones: {{phones.length}}</p>
+		<p>{{hello}}</p>
+	</div>
+	<div ng-controller='WeekCtrl'>
+		<span ng-repeat="day in weeks">
+			{{day.name}}
+		</span>
+	</div>
+	<div ng-controller="FilterController">
+		<p>Search:<input type="text" ng-model="query" /></p>
+		<p>
+			Sort By: 
+			<select ng-model="orderProp">
+				<option value="name">DESC</option>
+				<option value="age">38</option>
+			</select>
+		</p>
+		<ul>
+			<li ng-repeat="student in students | filter:query | orderBy:orderProp">
+				{{student.name}}
+			</li>
+		</ul>
+		<p>Search Query is {{query}}</p>
+	</div>
+	<div ng-controller="PhoneController">
+		<ul>
+			<li ng-repeat="phoneli in phonelis">
+				<a href="/phonedetail/{{phoneli.id}}"><span>{{phoneli.name}}</span></a>
+				<p>{{phoneli.snippet}}</p>
+				<img ng-src="{{phoneli.img}}" width="200px" height="100px"/>
+			</li>
+		</ul>
+		<pre>{{phonelis | json}}</pre>
+	</div>
+</body>
+</html>
