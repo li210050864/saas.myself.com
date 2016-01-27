@@ -6,8 +6,8 @@ header{width:80%;height:50px;line-height:50px;padding:0 10%;}
 footer{width:100%;height:300px;background-color:#1f1d1d;color:#ffffff;}
 .logo{font-size:24px;font-weight:bold;color:#ffffff;}
 menu{float:right;color:#ffffff;line-height:50px;height:50px;}
-menu ul li{float:left;padding:0 30px;}
-#adv{width:100%;height:330px;background-color:#d9d9d9;padding-top:10px;}
-#adv ul{width:716px;margin:0 auto;}
+menu ul li{float:left;padding:0 30px;font-size:13px;}
+#adv{width:100%;height:457px;background-color:#d9d9d9;padding-top:10px;}
+#adv ul{width:936px;margin:0 auto;display:block;}
+.dot{background:url(../img/dot.png);width:32px;height: 32px;border:1px solid red;}
 #main{width:90%;margin:0 auto;}
-
