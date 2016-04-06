@@ -1,17 +1,17 @@
 AddDefaultCharset utf-8
 RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^blog.net$
+RewriteCond %{HTTP_HOST} ^mydemo.com$
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteRule ^(.*)$ admin.php/$1 [L]
 RewriteRule ^(.*)$ index.php/$1 [L]
 
-RewriteEngine on
+#RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^blog.admin.net$
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ admin.php/$1 [L]
+#RewriteCond %{HTTP_HOST} ^blog.admin.net$
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)$ admin.php/$1 [L]
 #RewriteRule ^(.*)$ index.php/$1 [L]
 
