@@ -1,0 +1,10 @@
+*{margin:0;padding:0;}
+body{font-family: "Microsoft YaHei";font-size:12px;background: #FFFFFF}
+ul,ol,dl{list-style: none;}
+img{border:none;}
+a{text-decoration: none;}
+.white-color{color:#FFFFFF;}
+.f14{font-size:14px;}
+.header{background:#C4F7F4;position:absolute;top:0;left:0;right:0; height: 70px;}
+.main{background:#FBFAF3;position:absolute;top:70px;left:200px;right:0; bottom: 50px;min-height: 200px;}
+.footer{background:#323C3E;position:absolute;left:0;right:0;bottom:0; height: 50px;}
