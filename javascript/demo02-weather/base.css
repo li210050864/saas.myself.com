@@ -5,6 +5,18 @@ img{border:none;}
 a{text-decoration: none;}
 .white-color{color:#FFFFFF;}
 .f14{font-size:14px;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;display: block;height:0px;}
 .header{background:#C4F7F4;position:absolute;top:0;left:0;right:0; height: 70px;}
 .main{background:#FBFAF3;position:absolute;top:70px;left:200px;right:0; bottom: 50px;min-height: 200px;}
 .footer{background:#323C3E;position:absolute;left:0;right:0;bottom:0; height: 50px;}
+
+#weather .weather-header{height:90px;position:relative;}
+#weather .region{margin:30px;}
+#weather .region p span.right{margin-left:20px;cursor:pointer;color:#FF0000;}
+#weather .switchCity{position:absolute;top:60px;background:#FFFFFF;border:1px solid #59667A;width:300px;height:200px;border-radius:3px;padding:10px;}
+#weather .curcity .citycontext{display:inline-block;width:80px;height: 30px;line-height: 30px;border:1px solid #00adff;border-radius:2px;padding-left:5px;margin-right:5px;cursor:pointer;}
+#weather .country-citys{margin-top:10px;}
+#weather .country-citys span{display: inline-block;padding:5px 10px;cursor:pointer;}
+#weather #city-cancel{border:1px solid #00adff;border-radius: 2px;}
