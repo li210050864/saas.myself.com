@@ -16,7 +16,7 @@
 						<span>当前城市：北京</span>
 						<span class='right'>【切换城市】</span>
 					</p>
-					<div class='switchCity'>
+					<div class='switchCity none'>
 						<p class='curcity'>
 							<span id="province" class='citycontext fl'>北京</span>
 							<span id="city" class='citycontext fl'>北京</span>
@@ -45,29 +45,22 @@
 				<div class="clear"></div>
 			</div>
 			<div class='weather-list'>
-				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-					<thead>
-						<tr>
-							<th>序号</th>
-							<th>日期</th>
-							<th>天气图片</th>
-							<th>天气详情</th>
-							<th>温度&风向</th>
-						</tr>
-					</thead>
+				<table width="50%" border="0" cellspacing="0" cellpadding="0">
 					<tbody>
 						<tr>
-							<td>昨天</td>
-							<td>
+							<td width="10%">昨天</td>
+							<td width="15%">
 								7月23日
 								星期日
 							</td>
-							<td><img src="./weahter/0.png" alt='晴'></td>
-							<td>
+							<td width="10%">
+								<img src="./weather/0.png" alt='晴'>
+							</td>
+							<td width="30%">
 								白天：阵雨
 								夜间：阵雨
 							</td>
-							<td>
+							<td width="30%">
 								23℃ ~ 29℃
 								东北风1级
 							</td>
@@ -78,7 +71,7 @@
 								7月24日
 								星期一
 							</td>
-							<td><img src="./weahter/0.png" alt='晴'></td>
+							<td><img src="./weather/0.png" alt='晴'></td>
 							<td>
 								白天：阵雨
 								夜间：阵雨
@@ -97,6 +90,7 @@
 	<script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
 	<script type="text/javascript" src='./jquery-1.11.0.js'></script>
 	<script type="text/javascript" src='./cookie.js'></script>
+	<script type="text/javascript" src="./city.js"></script>
 	<script type="text/javascript" src='./base.js'></script>
 </body>
 </html>

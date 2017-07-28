@@ -8,6 +8,7 @@ a{text-decoration: none;}
 .fl{float:left;}
 .fr{float:right;}
 .clear{clear:both;display: block;height:0px;}
+.none{display:none;}
 .header{background:#C4F7F4;position:absolute;top:0;left:0;right:0; height: 70px;}
 .main{background:#FBFAF3;position:absolute;top:70px;left:200px;right:0; bottom: 50px;min-height: 200px;}
 .footer{background:#323C3E;position:absolute;left:0;right:0;bottom:0; height: 50px;}
@@ -20,3 +21,5 @@ a{text-decoration: none;}
 #weather .country-citys{margin-top:10px;}
 #weather .country-citys span{display: inline-block;padding:5px 10px;cursor:pointer;}
 #weather #city-cancel{border:1px solid #00adff;border-radius: 2px;}
+#weather .weather-list table{border-collapse:collapse;margin-left:40px;}
+#weather .weather-list tbody tr td{text-align: center;border:1px solid #AAA;}
