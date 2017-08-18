@@ -1,0 +1,20 @@
+body{color:#FFBB55;}
+a:link{color:#444455;background-color: #eebb66;}
+a:visited{color:#334455;background-color: #eebb66;}
+a:hover{color:#666677;background-color: #ffbb55;}
+a:active{color:#777788;background-color: #eecc88;}
+header{color: #eecc88;background-color:#1B1414;}
+header nav{color: #445555;background-color: #778899;border-color:#666677;}
+article{color: #222233;background-color: #eeddcc;border-color: #666677;}
+header nav ul{border-color:#9999aa;}
+header nav a:link,header nav a:visited{color:#eeeeff;background-color: transparent;border-color: #9999aa;}
+header nav a:hover{color:#444455;background-color: #eebb66;}
+header nav a:active{color:#666677;background-color: #eecc88;}
+article img{border-color:#bbaa99;outline-color: #ddccbb;}
+#imagegallery a{background-color: transparent;}
+
+header nav a.here:link,header nav a.here:visited,header nav a.here:active{color:#FFFFFF;background: #779999;}
+#about header{background-color: #CCCCCC;}
+#photos header{background-color: #EFEFEF;}
+#live header{background-color: #AAAAAA;}
+#contact header{background-color: #888888;}

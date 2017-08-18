@@ -1,5 +1,5 @@
 *{margin:0;padding:0;}
-body{font-family:"Courier New";font-size:12px;background-color:#ffffff;}
+/*body{font-family:"Courier New";font-size:12px;background-color:#ffffff;}
 ul li{list-style: none;float:left;}
 .none{display:none;}
 .bg-gray{background-color:#d9d9d9;}
@@ -18,4 +18,24 @@ menu ul li{float:left;padding:0 30px;font-size:13px;}
 #main{width:90%;margin:0 auto;}
 #main-top{height:80px;padding:0px 100px;}
 #main-top ul li{text-align:center;margin:10px 30px;}
-.talk-circle{border:1px solid #d9d9d9;border-radius: 30px;width:50px;height:50px;line-height:50px;font-family:}
+.talk-circle{border:1px solid #d9d9d9;border-radius: 30px;width:50px;height:50px;line-height:50px;font-family:}*/
+body{font-family: "Helvetica","Arial",sans-serif;color:#333;background-color:#ccc;margin:1em 10%;}
+h1{color: #333;background: transparent;font-size: 24px;}
+a{color: #c60;background: transparent;font-weight: bold;text-decoration: none;}
+ul{padding:0;font-size:18px;}
+li{float:left;padding:1em;list-style: none;}
+.clear{clear:both;display: block;height: 0px;}
+#placeholder{display: block;}
+#description{height: 45px;line-height: 45px;margin-top: 30px;font-size:14px;}
+#example{margin-top:50px;}
+table{margin:0 auto;border:1px solid #699;}
+caption{margin:auto;padding:.2em;font-size: 1.2em;font-weight: bold;}
+th{font-weight: normal;font-style: italic;text-align:left;border:1px dotted #699;background-color:#9cc;color:#000;}
+th,td{width:10em;padding:.5em;}
+tr:nth-child(odd){background-color: #FCC;}
+tr:nth-child(even){background-color:#FFF;}
+tr:hover{font-weight: bold;}
+.odd{background-color: #FCC;}
+.event{background-color: #FFF;}
+#slideshow{width:200px;height:300px;position:relative;overflow:hidden;}
+canvas{margin-top:30px;}

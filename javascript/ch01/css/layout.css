@@ -1,0 +1,12 @@
+section,header,article,nav{display: block;}
+*{margin:0;padding:0;}
+body{}
+header{margin:0 auto;width:100%;}
+header img{margin:0 auto;width:1000px;display: block;}
+header nav{width:1000px;margin:0 auto;}
+header nav ul{width:100%;overflow:hidden;}
+header nav li{display: inline;}
+header nav li a{display: block;float:left;padding:.5em 2em;border-right:.1em solid;}
+article{padding-left:25%;padding-right:25%;padding-bottom:50px;}
+article h1{font-size: 1.8em;line-height: 5em;}
+article p{line-height:3em;font-size:1.4em;font-weight: normal;}
